@@ -10,7 +10,7 @@ spec:
   source:
     helm:
     path: manifest/charts/developer-argo
-    repoURL: 'https://github.com/jland-redhat/cluster-gitops.git'
+    repoURL: 'https://github.com/kmcolli/cluster-gitops.git'
     targetRevision: HEAD
   syncPolicy:
     automated: {}
